@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Угадай слово</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container" onmousedown="return false" onselectstart="return false">
+		<div class="shelf">
+			<span class="letter">П</span>
+			<span class="letter">Р</span>
+			<span class="letter">С</span>
+			<span class="letter">Т</span>
+			<span class="letter">У</span>
+			<span class="letter">Ф</span>
+			<span class="letter">Х</span>
+			<span class="letter">Ц</span>
+			<span class="letter">Ч</span>
+			<span class="letter">Ш</span>
+			<span class="letter">Щ</span>
+			<span class="letter">Ъ</span>
+			<span class="letter">Ы</span>
+			<span class="letter">Ь</span>
+			<span class="letter">Э</span>
+			<span class="letter">Ю</span>
+			<span class="letter">Я</span>
+		</div>
+		<div class="shelf">
+			<span class="letter">А</span>
+			<span class="letter">Б</span>
+			<span class="letter">В</span>
+			<span class="letter">Г</span>
+			<span class="letter">Д</span>
+			<span class="letter">Е</span>
+			<span class="letter">Ё</span>
+			<span class="letter">Ж</span>
+			<span class="letter">З</span>
+			<span class="letter">И</span>
+			<span class="letter">Й</span>
+			<span class="letter">К</span>
+			<span class="letter">Л</span>
+			<span class="letter">М</span>
+			<span class="letter">Н</span>
+			<span class="letter">О</span>
+		</div>
+		<div class="lifes-remain">
+			ЖИЗНЕЙ ОСТАЛОСЬ<br>
+			<span class="lifes"></span>
+		</div>
+		<div class="word-length">
+			КОЛИЧЕСТВО БУКВ В СЛОВЕ<br>
+			<span class="letters-quantity"></span>
+		</div>
+		<span class="hidden-word"></span>
+	</div>
+	<div class="game-over">
+		<div>Вы проиграли. А слово было: <span class="word"></span></div>
+		<a href="index.html">Сыграть еще раз?</a>
+	</div>
+	<div class="game-won">
+		<div>Вы выиграли. ПОЗДРАВЛЯЮ!</div>
+		<a href="index.html">Сыграть еще раз?</a>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
